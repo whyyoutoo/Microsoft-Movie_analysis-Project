@@ -1,71 +1,72 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# Movie Trend Analysis
 
-![blueprint](images/blueprint.png)
+**Authors**: Wesley Yu
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+## Overview
 
-## Repository Contents
+This project analyzes data from various movie databases. Exploratory data analysis of the database shows how trends in movie release dates, genres, and production budget can effect the movie's worldwide box office results. Microsoft can use this analysis to help decide which film projects to take on.
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+## Business Problem
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `data` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+Microsoft is making their entry into the movie buisness and wants to know what kind types of films are currently dominating the box office. Using data from movie databases, we can find patterns and trends that can help Microsoft in deciding what movie to make how how to ensure it will be successful.
 
-## Instructions For Using This Repository
+## Data
 
-### Fork This Repository
+In this project, we will be looking at datasets from two sources. The Numbers and TMDB.
+The Numbers has been tracking data about the movie industry since 1997, having the most up to date information on box office numbers and movie financials.
+TMDB is a community built and backed database on movies and TV shows. Data is constanly added and updated by a strong community that is passionate about movie and TV show data.
+We will be looking at data from movies released from 2009 to now. The main variables we will be examing are genre, release date, and production budget of various movies.
 
-**For a group project**, have only one team member do these steps:
+## Methods
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+This project uses descriptive analysis to find measures of central tendency in different variables that contribute to a movie's success. 
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+## Results
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
+The movies with adventure genre has been shown to have higher worldwide box office gross than other genre categories.
+![graph1](./images/genre_gross.png)
 
-### Work In Your Fork Of This Repository
+Movies released in the summer months May, June, July and end of year holiday months November and December are shown to have higher worldwide box office gross.
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+![graph2](./images/movie_month_gross.png)
 
-### Use The Slide Template
+Production budget and worldwide box office gross have a positive correlation. As production budget increases worldwide box offfice gross increases as well.
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
+![graph3](./images/budget_vs_gross.png)
 
-### Tidy Up Your Project
+Movies with higher production budgets have a higher chance of success at the box office.
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
-   - Any unused images in the `images` folder
+![graph3](./images/success_chance.png)
 
-### Submit Your Project
+## Conclusions
 
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+This analysis leads to three recommendations to help Microsoft in deciding what movies to make:
 
-***
-### Notes
+- __Time of release.__ The months leading up to summer, May, June, July have shown to have brought back higher box office totals.
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+- __Type of movie.__ While there are alot of different genres and sub genres in movies now. Movies with higher box office totals have shown to be of the adventure genre.
+
+- __Price of success.__ Analysis shows spending a minimum of 100 million dollars will give a high chance of bring back a positive return on investment.
+
+There are many variables to examine to predict box office success of a movie. This analysis only looked at three of them.
+
+Further data and analysis can help Microsoft narrow down their decision making.
+
+- __Marketing plays a big part in movie sucess.__  Examing this data could give insights on how audiences respond to different marketing techniques when promoting a movie.
+- __Other markets.__ In this analysis we only looked at worldwide box office gross as the deciding factor to success. With the growth of streaming services, we can look at these other forms of revenue to help with decision making.
+
+## For More Information
+
+Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+
+For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.com**
+
+## Repository Structure
+
+```
+├── README.md                           
+├── dsc-phase1-project-template.ipynb   
+├── DS_Project_Presentation.pdf         
+├── data                                
+└── images                              
+```
