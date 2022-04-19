@@ -1,14 +1,14 @@
-# Title
+# Movie Trend Analysis
 
-**Authors**: Student1, Student2
+**Authors**: Wesley Yu
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+This project analyzes data from various movie databases. Exploratory data analysis of the database shows how trends in movie release dates, genres, and production budget can effect the movie's worldwide box office results. Microsoft can use this analysis to help decide which film projects to take on.
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+Microsoft is making their entry into the movie buisness and wants to know what kind types of films are currently dominating the box office. Using data from movie databases, we can find patterns and trends that can help Microsoft in deciding what movie to make how how to ensure it will be successful.
 
 ***
 Questions to consider:
@@ -19,7 +19,10 @@ Questions to consider:
 
 ## Data
 
-Describe the data being used for this project.
+In this project, we will be looking at datasets from two sources. The Numbers and TMDB.
+The Numbers has been tracking data about the movie industry since 1997, having the most up to date information on box office numbers and movie financials.
+TMDB is a community built and backed database on movies and TV shows. Data is constanly added and updated by a strong community that is passionate about movie and TV show data.
+We will be looking at data from movies released from 2009 to now. The main variables we will be examing are genre, release date, and production budget of various movies.
 
 ***
 Questions to consider:
@@ -31,7 +34,7 @@ Questions to consider:
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+This project uses descriptive analysis to find measures of central tendency in different variables that contribute to a movie's success. 
 
 ***
 Questions to consider:
@@ -41,7 +44,9 @@ Questions to consider:
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+The movies with adventure genre has been shown to have higher worldwide box office gross than other genre categories.
+
+
 
 ***
 Questions to consider:
@@ -52,7 +57,7 @@ Questions to consider:
 Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
-![graph1](./images/viz1.png)
+![graph1](./images/genre_gross.png)
 
 ## Conclusions
 
