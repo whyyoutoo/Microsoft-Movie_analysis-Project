@@ -36,7 +36,7 @@ Production budget and worldwide box office gross have a positive correlation. As
 ![graph4](./images/budget_vs_gross.png)
 
 Animation genre has lower average production budget than Fantasy and Adventure. But it had higher average box office revenue.
-![graph5](./images/adv_budget_frequency.png)
+![graph5](./images/top_budget.png)
 
 ## Conclusions
 
