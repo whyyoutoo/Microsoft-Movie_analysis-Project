@@ -23,30 +23,33 @@ This project uses descriptive analysis to find measures of central tendency in d
 
 ## Results
 
-The movies with adventure genre has been shown to have higher worldwide box office gross than other genre categories.
+The movies with animation genre has been shown to have higher worldwide box office gross than other genre categories.
 ![graph1](./images/genre_gross.png)
 
 Movies released in the summer months May, June, July and end of year holiday months November and December are shown to have higher worldwide box office gross.
-
 ![graph2](./images/movie_month_gross.png)
 
-Production budget and worldwide box office gross have a positive correlation. As production budget increases worldwide box offfice gross increases as well.
+Movies in the animation genre follow similar trend, with the highest revenue in the months of June and July.
+![graph3](./images/genre_month_gross.png)
 
-![graph3](./images/budget_vs_gross.png)
+Production budget and worldwide box office gross have a positive correlation. As production budget increases worldwide box offfice gross increases as well.
+![graph4](./images/budget_vs_gross.png)
 
 Movies with higher production budgets have a higher chance of success at the box office.
+![graph5](./images/success_chance.png)
 
-![graph3](./images/success_chance.png)
+Animation genre has lower average production budget than Fantasy and Adventure. But it had higher average box office revenue.
+![graph6](./images/adv_budget_frequency.png)
 
 ## Conclusions
 
 This analysis leads to three recommendations to help Microsoft in deciding what movies to make:
 
-- __Time of release.__ The months leading up to summer, May, June, July have shown to have brought back higher box office totals.
+- __Type of movie.__ While there are alot of different genres and sub genres in movies now. Movies with higher box office totals have shown to be of the animation genre.
 
-- __Type of movie.__ While there are alot of different genres and sub genres in movies now. Movies with higher box office totals have shown to be of the adventure genre.
+- __Time of release.__ The months of June, July have shown to have brought back higher box office revenue for Animation movies.
 
-- __Price of success.__ Analysis shows spending a minimum of 100 million dollars will give a high chance of bring back a positive return on investment.
+- __Price of success.__ Analysis shows spending a minimum of 80 million dollars will give a high chance of bring back a positive return on investment.
 
 There are many variables to examine to predict box office success of a movie. This analysis only looked at three of them.
 
@@ -57,7 +60,7 @@ Further data and analysis can help Microsoft narrow down their decision making.
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Microsoft-Movie-Analysis.ipynb) or our [presentation](./Movie-Analysis-Presentation .pdf).
 
 For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.com**
 
