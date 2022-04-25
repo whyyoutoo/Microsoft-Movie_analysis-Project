@@ -35,11 +35,8 @@ Movies in the animation genre follow similar trend, with the highest revenue in 
 Production budget and worldwide box office gross have a positive correlation. As production budget increases worldwide box offfice gross increases as well.
 ![graph4](./images/budget_vs_gross.png)
 
-Movies with higher production budgets have a higher chance of success at the box office.
-![graph5](./images/success_chance.png)
-
 Animation genre has lower average production budget than Fantasy and Adventure. But it had higher average box office revenue.
-![graph6](./images/adv_budget_frequency.png)
+![graph5](./images/adv_budget_frequency.png)
 
 ## Conclusions
 
