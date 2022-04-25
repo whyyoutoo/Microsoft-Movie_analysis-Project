@@ -65,8 +65,8 @@ For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.co
 
 ```
 ├── README.md                           
-├── dsc-phase1-project-template.ipynb   
-├── DS_Project_Presentation.pdf         
+├── Microsoft-Movie-Analysis.ipynb
+├── Movie-Analysis-Presentation .pdf        
 ├── data                                
 └── images                              
 ```
