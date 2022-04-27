@@ -57,7 +57,7 @@ Further data and analysis can help Microsoft narrow down their decision making.
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./Microsoft-Movie-Analysis.ipynb) or our [presentation](./Movie-Analysis-Presentation .pdf).
+Please review our full analysis in [our Jupyter Notebook](./Microsoft-Movie-Analysis.ipynb) or our [presentation](./Movie-Analysis-Presentation.pdf).
 
 For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.com**
 
